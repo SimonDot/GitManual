@@ -2,26 +2,35 @@
 Github manual Kor.
 * * *
 ## 1. 초급 - 기본명령어
-### -1. 깃 설치 후 최초 설정.
+### -2. Git 설치 후 최초 설정.
 * git config --global user.name "--"
 * git config --global user.email "--@--"
 * git config --list
-	
-### 0. 깃 초기화.
+    설정 확인.
+
+### -1. Git 초기화.
 * git init
-	
-### 1. 깃 리포지터리 연결 및 해제
+
+### 0. Github 저장소 연결 및 해제
 * git remote add origin https://----
 * git remote rm origin
 
-### 2. 깃 당겨오기
+### 1. Github 당겨오기
 * git pull origin master
+	당겨오기 전에 변경내용 확인.???????
 
-### 3. 깃 올리기
+### 2. Github Index
 * git status
 * git add .
+	깃허브 저장소 업로드 순서
+	로컬PC -> INDEX -> HEAD -> GitHub
+
+### 3. Github Head
 * git commit -m "--"
+
+### 4. Github 올리기
 * git push origin master
+	2번 ~ 4번을 진행해야 업로드가 완료된다.
 * * *
 ## 2. 중급
 ### 1. 깃 당겨오면서 초기화
