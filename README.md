@@ -3,29 +3,29 @@ Github manual Kor.
 * * *
 ## 1. 초급 - 기본명령어
 > -1. 깃 설치 후 최초 설정.
-	* git config --global user.name "--"
-	* git config --global user.email "--@--"
-	* git config --list
+* git config --global user.name "--"
+* git config --global user.email "--@--"
+* git config --list
 	
 > 0. 깃 초기화.
-	* git init
+* git init
 	
 > 1. 깃 리포지터리 연결 및 해제
-	* git remote add origin https://----
-	* git remote rm origin
+* git remote add origin https://----
+* git remote rm origin
 
 > 2. 깃 당겨오기
-	* git pull origin master
+* git pull origin master
 
 > 3. 깃 올리기
-	* git status
-	* git add .
-	* git commit -m "--"
-	* git push origin master
+* git status
+* git add .
+* git commit -m "--"
+* git push origin master
 
 ## 2. 중급
 > 1. 깃 당겨오면서 초기화
-	* git clone https://----
+* git clone https://----
 
 > 2. 브랜치
 
