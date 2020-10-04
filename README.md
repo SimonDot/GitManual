@@ -2,11 +2,10 @@
 Github manual Kor.
 * * *
 ## 1. 초급 - 기본명령어
-### -2. Git 설치 후 최초 설정.
-* git config --global user.name "--"
-* git config --global user.email "--@--"
-* git config --list
-> 설정 확인.
+>### -2. Git 설치 후 최초 설정.
+>	>* git config --global user.name "--"
+>	>* git config --global user.email "--@--"
+>	>* git config --list
 
 ### -1. Git 초기화.
 * git init
