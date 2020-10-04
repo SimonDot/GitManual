@@ -35,6 +35,7 @@ Github manual Kor.
 
 ### 2. Github 올리기
 깃허브 저장소 업로드 순서
+
 로컬PC -> INDEX -> HEAD -> GitHub
 >* git status
 >	* 파일 상태 확인.
