@@ -7,24 +7,33 @@ Github manual Kor.
 ### -2. Git 설치 후 최초 설정.
 * 최초 설치 후 1회 실행하면 된다.
 
-1. git config --global user.name "--"
-* user.name 설정
-2. git config --global user.email "--@--"
-* user.email 설정
-3. git config --list
-* 설정 확인.
+>* git config --global user.name "--"
+>	* user.name 설정
+>* git config --global user.email "--@--"
+>	* user.email 설정
+>* git config --list
+>	* 설정 확인.
 
 ### -1. Git 초기화.
--1.1. git init
-* 폴더 우클릭 후 git bash 실행 후 명령어 작성.
+* 폴더 지정 후 1회 실행하면 된다.
+
+>* git init
+>	* 폴더 내부에 git 파일이 생성 됨.
 
 ### 0. Github 저장소 연결 및 해제
-* git remote add origin https://----
-* git remote rm origin
+* 폴더 지정 후 1회 실행하면 된다.
+
+>* git remote add origin https://----
+>	* 저장소 연결
+>* git remote rm origin
+>	* 저장소 링크 잘못 연결시 삭제.
 
 ### 1. Github 당겨오기
-* git pull origin master
-> 당겨오기 전에 변경내용 확인.???????
+* 올리기 전에 당겨오기 부터 해야한다.
+* 현재 작성한 내용이 최신버전일때 당겨오면 덮어씌어지므로 주의.
+* src 파일만 그런가...
+
+>* git pull origin master
 
 ### 2. Github Index
 * git status
