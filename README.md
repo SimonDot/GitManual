@@ -7,11 +7,11 @@ Github manual Kor.
 ### -2. Git 설치 후 최초 설정.
 * 최초 설치 후 1회 실행하면 된다.
 
--2.1. git config --global user.name "--"
+1. git config --global user.name "--"
 * user.name 설정
--2.2. git config --global user.email "--@--"
+2. git config --global user.email "--@--"
 * user.email 설정
--2.3. git config --list
+3. git config --list
 * 설정 확인.
 
 ### -1. Git 초기화.
