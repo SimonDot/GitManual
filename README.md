@@ -45,14 +45,17 @@ Github manual Kor.
 >	* 커밋을 하게되면 HEAD로 업로드.
 >* git push origin master
 >	* GitHub 업로드 완료.
+
 * * *
 ## 2. 중급
 ### 1. 깃 당겨오면서 초기화
-* git clone https://----
+>* git clone https://----
+>	* 다운로드 후 git init 과 동일하다.
 
 ### 2. 브랜치
 
 ### 3. 병합
+
 * * *
 ## 3. 고급
 ### 리포지터리 생성 시 README.md 생성과 로컬에서 README.md 차이점.
