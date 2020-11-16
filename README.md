@@ -53,6 +53,14 @@ Github manual Kor.
 >	* 다운로드 후 git init 과 동일하다.
 
 ### 2. 브랜치
+>* git branch ----
+>	* 브램치 생성
+>* git checkout ----
+>	* 브랜치 스위칭
+>* git checkout -b ----
+>	* 브랜치 생성과 스위칭
+>* git branch -d ----
+>	* 브랜치 삭제
 
 ### 3. 병합
 
