@@ -78,11 +78,13 @@ push 때 에러나고
 다른컴에서 작업해서 커밋하든 깃헙 홈피서 수정하든
 마지막 커밋내용과 폴더내용이 다른상태로 수정이 되어 커밋하였을때
 에러 해결방법
-git stash
+>* git stash
+>	*저장
+>* git pull origon master
+>	*당겨오기
+>* git stash pop
+>	*불러오기
 
-git pull origon master
-
-git stash pop
 * * *
 ## 3. 고급
 ### 리포지터리 생성 시 README.md 생성과 로컬에서 README.md 차이점.
